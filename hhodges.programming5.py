@@ -73,7 +73,7 @@ def main():
         if option == "Distance":
             lati = float(input("Latitude: "))
             if lati > 90 or lati < -90:
-                print("out of range error")
+                print("Range error")
                 continue
 
             longi = float(input("Longitude: "))
