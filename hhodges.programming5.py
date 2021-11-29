@@ -16,25 +16,27 @@ def file(name):
         print("cannot open file, check file name and try again")
 
 
+# function to get cash average
+def cash_average():
+    count = 0
+    sum = 0
+    if input == "Cash":
+        sum += float()
+        count += 1
+        avg = sum / count
+        return cash_average()
+    
+    
 # function to get the average of creditcard charges
 def credit_average():
     count = 0
     sum = 0
-    if input == "2":
+    if input == "Credit":
         sum += float()
         count += 1
         avg = sum / count
     return credit_average()
 
-# function to get cash average
-def cash_average():
-    count = 0
-    sum = 0
-    if input == "1":
-        sum += float()
-        count += 1
-        avg = sum / count
-        return cash_average()
 
 # function if user decides to find trips by date
 def date(date):
